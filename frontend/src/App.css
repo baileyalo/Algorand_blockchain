@@ -1,11 +1,10 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 .form {
   text-align: left;
   font-size: calc(1px + 2vmin);
   margin-left: 30px;
-  border-style: dotted;
   border-color: rgb(148, 148, 156);
   border-width: 2px;
 
@@ -13,14 +12,12 @@
 }
 .img{
   text-align: right;
-  padding: 0.px 20px;
-
+  padding: 10px 20px;
+  margin-bottom: 400px;
+  margin-top: 0px;
   border-radius: 8px;
   
-  
-
-
-}
+  }
 
 .button {
   background-color: #182b94;
