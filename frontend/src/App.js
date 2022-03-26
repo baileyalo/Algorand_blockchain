@@ -53,8 +53,8 @@ function App() {
     </Form.Field>
     <br/>
     <Button type='submit'>Submit</Button>
-    
-    <Image  className = "img" src='https://react.semantic-ui.com/images/wireframe/image.png' size='small' wrapped />
+
+    <Image  className = "img" src='https://gateway.pinata.cloud/ipfs/QmWqdd26tqzVp7BCUUbAieDccNd5a59s7d3wixYnEva6qe' size='small' wrapped />
     </Form>
 
     
