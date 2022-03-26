@@ -1,12 +1,13 @@
 import logo from './algorand-algo-logo.png';
 import './App.css';
 import { Button, Image, Form } from 'semantic-ui-react'
-import { render } from 'react-dom';
+
 
 
 function App() {
   return (
-    <div>
+    <div id ="parent" >
+     
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <br/> 
@@ -56,11 +57,12 @@ function App() {
     </Form.Field>
     <br/>
     <Button type='submit'>Submit</Button>
-
     <Image  className = "img" src='https://gateway.pinata.cloud/ipfs/QmWqdd26tqzVp7BCUUbAieDccNd5a59s7d3wixYnEva6qe' size='small' wrapped />
     </Form>
-  
     </div>
+
+
+
 
 
 
